@@ -1,17 +1,41 @@
-👋 Hi, I’m Nirmal Israel (@bsoft-nirmal)
+👋 Hi, I’m Nirmal Israel
 
-👀 I’m interested in software development, with a primary focus on backend technologies and system architecture. I am also skilled in UI/UX design, where I leverage modern web technologies to enhance user experience and create intuitive interfaces.
+💼 I’m a Software Engineer at Bosco Soft Technologies Pvt Ltd, where I build scalable web applications using .NET technologies. My core strength lies in backend development using C#, ASP.NET Core, and SQL Server, but I’m now actively transitioning into frontend development.
 
-🌱 I’m currently learning .NET, with a focus on LINQ methods, HTML, CSS, and Bootstrap. I have a strong foundation in Java, Spring Boot, Microservices, and Automation (REST API). I’m also enhancing my skills in user interface development and working with relational databases like PostgreSQL and MSSQL.
+🧠 What I'm Learning Now:
+- React.js & TypeScript
+- Modern frontend workflows (ES6+, JSX, Hooks, Component-based architecture)
+- UI/UX design principles and responsive web development
+- State management using Redux / Context API
 
-💞️ I’m looking to collaborate on projects involving ASP.NET MVC, WinForms applications, and any opportunity to deepen my expertise in .NET and LINQ. I am also open to contributing to UI/UX design projects and exploring new technologies.
+💻 Technical Skills:
+- Frontend: HTML, CSS, Bootstrap, React.js (in progress), TypeScript (in progress)
+- Backend: ASP.NET Core, Razor Pages, Web Forms, C#, LINQ
+- Databases: SQL Server, MySQL, PostgreSQL
+- Previous: Java, Spring Boot, Microservices, JDBC
+- Tools: Git & GitHub, Visual Studio, VS Code
 
-📫 How to reach me: You can contact me at +91 8754271061 or via email at nirmal.israel126@gmail.com.
+🛠 Past Highlights:
+- Built enterprise web apps with .NET Core and ASP.NET
+- Developed Student Management System using Java & Spring Boot
+- Experience in REST API design, database optimization, and clean code practices
 
-😄 Pronouns: He/Him
+🎯 Goals:
+- Master React and TypeScript for frontend development
+- Build full-stack applications (React + .NET Core)
+- Continue improving in UI/UX design and accessibility
 
-⚡ Fun fact: I enjoy writing emails and am currently practicing different types of professional correspondence under the guidance of my HR.
-<!---
-bsoft-nirmal/bsoft-nirmal is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🤝 I’m open to collaborating on:
+- React or ASP.NET-based projects
+- Full-stack web apps (frontend + backend integration)
+- UI/UX design improvements and modernizing legacy systems
+
+📫 How to reach me:
+- ✉️ Email: nirmal.israel126@gmail.com
+- 📱 Phone: +91 8754271061
+- 📍 Tirupattur, Tamil Nadu, India
+
+😄 Fun Fact: I enjoy exploring frontend creativity and writing professional emails to improve my business communication.
+
+---
+✨ Let’s build something clean, fast, and user-friendly!
