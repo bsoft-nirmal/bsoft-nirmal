@@ -1,0 +1,14 @@
+com/todoapp/repository/UserRepository.class
+com/todoapp/TodoAppApplication.class
+com/todoapp/config/WebConfig.class
+com/todoapp/model/Todo.class
+com/todoapp/controller/TodoController.class
+com/todoapp/service/TodoService.class
+com/todoapp/model/Todo$Priority.class
+com/todoapp/config/DataInitializer.class
+com/todoapp/controller/AuthController.class
+com/todoapp/service/CustomUserDetailsService.class
+com/todoapp/model/User.class
+com/todoapp/service/UserService.class
+com/todoapp/config/SecurityConfig.class
+com/todoapp/repository/TodoRepository.class
