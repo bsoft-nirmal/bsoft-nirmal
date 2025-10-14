@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import { fileURLToPath, URL } from 'node:url';
 
 // Load env to expose VITE_* vars
 // no need to import dotenv; Vite loads .env.* automatically
@@ -35,18 +36,18 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@assets': '/src/assets',
-      '@components': '/src/components',
-      '@pages': '/src/pages',
-      '@hooks': '/src/hooks',
-      '@contexts': '/src/contexts',
-      '@services': '/src/services',
-      '@types': '/src/types',
-      '@models': '/src/types',
-      '@utils': '/src/utils',
-      '@routes': '/src/routes',
-      '@theme': '/src/theme',
-      '@mocks': '/src/mocks',
+      '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)),
+      '@components': fileURLToPath(new URL('./src/components', import.meta.url)),
+      '@pages': fileURLToPath(new URL('./src/pages', import.meta.url)),
+      '@hooks': fileURLToPath(new URL('./src/hooks', import.meta.url)),
+      '@contexts': fileURLToPath(new URL('./src/contexts', import.meta.url)),
+      '@services': fileURLToPath(new URL('./src/services', import.meta.url)),
+      '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
+      '@models': fileURLToPath(new URL('./src/types', import.meta.url)),
+      '@utils': fileURLToPath(new URL('./src/utils', import.meta.url)),
+      '@routes': fileURLToPath(new URL('./src/routes', import.meta.url)),
+      '@theme': fileURLToPath(new URL('./src/theme', import.meta.url)),
+      '@mocks': fileURLToPath(new URL('./src/mocks', import.meta.url)),
     },
   },
   server: {
