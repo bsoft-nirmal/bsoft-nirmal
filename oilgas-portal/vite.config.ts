@@ -42,6 +42,7 @@ export default defineConfig({
       '@contexts': '/src/contexts',
       '@services': '/src/services',
       '@types': '/src/types',
+      '@models': '/src/types',
       '@utils': '/src/utils',
       '@routes': '/src/routes',
       '@theme': '/src/theme',
