@@ -1,0 +1,41 @@
+import type { Bid } from '@models/bid.types';
+import { BidStatus, IndustrySector } from '@models/bid.types';
+
+export const mockBids: Bid[] = [
+  {
+    id: '1',
+    title: 'Offshore Platform Maintenance Contract',
+    companyId: 'company-1',
+    companyName: 'Shell International',
+    description: 'Comprehensive maintenance services...',
+    status: BidStatus.OPEN,
+    industry: IndustrySector.OFFSHORE_OPERATIONS,
+    location: 'Gulf of Mexico',
+    budgetMin: 5_000_000,
+    budgetMax: 10_000_000,
+    deadline: '2025-12-15',
+    requirements: ['ISO 9001 Certification', 'Offshore Experience', 'Safety Training'],
+    applicantCount: 23,
+    postedDate: '2025-10-01',
+    createdAt: '2025-10-01',
+    updatedAt: '2025-10-01',
+  },
+  {
+    id: '2',
+    title: 'Pipeline Inspection and Repair',
+    companyId: 'company-2',
+    companyName: 'BP Global',
+    description: 'Inspection and repair of pipeline segments...',
+    status: BidStatus.URGENT,
+    industry: IndustrySector.PIPELINE,
+    location: 'North Sea',
+    budgetMin: 1_000_000,
+    budgetMax: 3_500_000,
+    deadline: '2025-11-05',
+    requirements: ['API 1169 Certification', 'ROV Capability'],
+    applicantCount: 12,
+    postedDate: '2025-10-10',
+    createdAt: '2025-10-10',
+    updatedAt: '2025-10-10',
+  },
+];
